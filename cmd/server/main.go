@@ -35,8 +35,8 @@ type CotacaoResponse struct {
 const (
 	PORT             = ":8080"
 	API_URL          = "https://economia.awesomeapi.com.br/json/last/USD-BRL"
-	API_TIMEOUT      = 2000 * time.Millisecond
-	DATABASE_TIMEOUT = 1000 * time.Millisecond
+	API_TIMEOUT      = 200 * time.Millisecond
+	DATABASE_TIMEOUT = 10 * time.Millisecond
 	DATABASE_PATH    = "cotacoes.db"
 )
 
